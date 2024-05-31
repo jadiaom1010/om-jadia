@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+    <title>Resume - OM JADIA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(11, 11, 27);
+            color: azure;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(7, 7, 10);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(132, 119, 206);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 2rem;
+            color: aqua;
+        }
+
+        .resume-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 80px 20px;
+        }
+
+        .resume-buttons {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .resume-button {
+            background-color: rgb(157, 97, 213);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume-button:hover {
+            background-color: rgb(132, 119, 206);
+        }
+
+        footer {
+            background-color: rgb(7, 7, 10);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: rgb(157, 97, 213);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: rgb(132, 119, 206);
+        }
+
+        .resume-image {
+            width: 400px;
+            margin: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                OM JADIA
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="index.html"><li>HOME</a></li>
+                    <a href="about.html"><li>ABOUT</a></li>
+                    <a href="projects.html"><li>PROJECTS</a></li>
+                    <a href="resume.html"><li>RESUME</a></li>
+                    <a href="contact.html"><li>CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="resume-section">
+            <h1>My Resume</h1>
+            <div class="resume-buttons">
+                <a href="C:\Users\om jadia\Desktop\portfolio\omjadiapinelabupdated.pdf" class="resume-button" download>Download</a>
+                <a href="C:\Users\om jadia\Desktop\portfolio\omjadiapinelabupdated.pdf" class="resume-button" target="_blank">View</a>
+            </div>
+            <img src="bg.png" alt="Resume Image" class="resume-image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 OM JADIA. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

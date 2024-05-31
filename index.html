@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+    <title>OM JADIA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(11, 11, 27);
+            color: azure;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(7, 7, 10);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(132, 119, 206);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 2rem;
+            color: aqua;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstsection > div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 50px;
+        }
+
+        .bg {
+            width: 90%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(157, 97, 213);
+        }
+
+        #element {
+            color: rgb(157, 97, 213);
+        }
+
+        .download-resume {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: rgb(33, 167, 234);
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-resume:hover {
+            background-color: rgb(132, 119, 206);
+        }
+
+        .work-experience {
+            margin: 80px 0;
+            padding: 0 50px;
+        }
+
+        .work-experience h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: rgb(33, 167, 234);
+        }
+
+        .job {
+            margin-bottom: 40px;
+        }
+
+        .job h3 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            color: rgb(157, 97, 213);
+        }
+
+        .job .date {
+            font-size: 1rem;
+            color: rgb(165, 155, 175);
+            margin-bottom: 10px;
+        }
+
+        .job p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        .skills {
+            margin: 80px 0;
+            padding: 0 50px;
+        }
+
+        .skills h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: rgb(33, 167, 234);
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .skill {
+            background-color: rgb(7, 7, 10);
+            border: 2px solid rgb(157, 97, 213);
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            width: 45%;
+            text-align: center;
+        }
+
+        .skill h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: rgb(165, 155, 175);
+        }
+
+        .skill p {
+            font-size: 1.2rem;
+        }
+
+        .connect {
+            margin: 80px 0;
+            padding: 0 50px;
+        }
+
+        .connect h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: rgb(33, 167, 234);
+        }
+
+        .connect-list {
+            display: flex;
+            justify-content: center;
+        }
+
+        .connect-list a {
+            text-decoration: none;
+            color: rgb(157, 97, 213);
+            font-size: 1.5rem;
+            margin: 0 20px;
+        }
+
+        .connect-list a:hover {
+            color: rgb(33, 167, 234);
+        }
+
+        footer {
+            background-color: rgb(7, 7, 10);
+            text-align: center;
+            padding: 20px 0;
+            color: rgb(165, 155, 175);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                OM JADIA
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="index.html"><li>HOME</a></li>
+                    <a href="about.html"><li>ABOUT</a></li>
+                    <a href="projects.html"><li>PROJECTS</a></li>
+                    <a href="resume.html"><li>RESUME</a></li>
+                    <a href="contact.html "><li>CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="purple">Om</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <br>
+                <br>
+                <a href="C:\Users\om jadia\Desktop\portfolio\omjadiapinelabupdated.pdf" class="download-resume" target="_blank">Download Resume</a>
+            </div>
+            <div class="rightsection">
+                <img class="bg" src="bg.png" alt="">
+            </div>
+        </section>
+        
+        <section class="work-experience">
+            <h2 align="center">WORK EXPERIENCE</h2>
+            <br>
+            <br>
+            <div class="job">
+                <h3>Java Developer Intern In Pine Labs</h3>
+                <div class="date">June 2024 - Present</div>
+                <p>Developing and maintaining applications using Java and Spring Boot. Collaborated with cross-functional teams to define, design, and ship new features.</p>
+            </div>
+            <div class="job">
+                <h3>Freelance Web Developer for Mother Gems & Co.</h3>
+                <div class="date">January 2024 - February 2024</div>
+                <p>Developed a branding e-commerce website for the company. Worked on using Web3form API and improving website performance.</p>
+            </div>
+            <div class="job">
+                <h3>Data Analyst Intern in Tools (India) Distributers</h3>
+                <div class="date">August 2023 - September 2023</div>
+                <p>Contributed to informed decision making through the insightful analysis outcome. Conducted market research to understand the customers' needs and preferences. Managed data entries in Excel & produced graphs for future analysis.</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 align="center">SKILLS</h2>
+            <br>
+            <br>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Programming Languages</h3>
+                    <p>Java, C & C++, Python</p>
+                </div>
+                <div class="skill">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JS</p>
+                </div>
+                <div class="skill">
+                    <h3>Databases</h3>
+                    <p>MySQL</p>
+                </div>
+                <div class="skill">
+                    <h3>Tools & Technologies</h3>
+                    <p>SpringBoot</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="connect">
+            <h2 align="center">CONNECT</h2>
+            <br>
+            <br>
+            <div class="connect-list">
+                <a href="https://www.linkedin.com/in/omjadia?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/omjadia2002?igsh=MWYzbHlhcnB5NW9pNw%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+                <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 OM JADIA. All rights reserved.
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Java Developer.', 'Web Developer.', 'Web Designer.', 'Data Analyst.'],
+            typeSpeed: 100,
+            loop: true,
+        });
+    </script>
+</body>
+</html>

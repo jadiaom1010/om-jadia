@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+    <title>Projects - OM JADIA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(11, 11, 27);
+            color: azure;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(7, 7, 10);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(132, 119, 206);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 2rem;
+            color: aqua;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 80px 20px;
+        }
+
+        .project-card {
+            background-color: rgb(7, 7, 10);
+            color: azure;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(116, 97, 173, 0.824);
+        }
+
+        .project-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: rgb(97, 189, 197);
+        }
+
+        .project-card p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: rgb(7, 7, 10);
+            text-align: center;
+            padding: 20px 0;
+            color: rgb(165, 155, 175);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                OM JADIA
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="index.html"><li>HOME</a></li>
+                    <a href="about.html"><li>ABOUT</a></li>
+                    <a href="projects.html"><li>PROJECTS</a></li>
+                    <a href="resume.html"><li>RESUME</a></li>
+                    <a href="contact.html"><li>CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="projects-container">
+            <div class="project-card">
+                <h2>Mother Gems & Co.</h2>
+                <p>Developed the official branding e-commerce website for the company. Worked on using Web3form API and improving website performance.</p>
+            </div>
+            <div class="project-card">
+                <h2>Personal Portfolio</h2>
+                <p>With a curated selection of projects, I showcase my skills in Html, CSS , JavaScript. From innovative designs to impactful solutions, each project tells a story of creativity and dedication.</p>
+            </div>
+            <div class="project-card">
+                <h2>PharmaCare</h2>
+                <p> Implemented a visually appealing front-end showcasing the medicines, personal care products and medical equipments. Developed an intuitive and user-oriented website which provides medical and personal care services. </p>
+            </div>
+            <div class="project-card">
+                <h2>CheckMate</h2>
+                <p> Developed a project, which marks the attendance of a person by using facial recognition. The project is built using Machine learning algorithms and FireBase for recording the data in the database
+                   </p>
+            </div>
+            <div class="project-card">
+                <h2>Pet Adoption Website</h2>
+                <p>Developed a pet adoption web project. Where User needs to fill in necessary details and information, and can adopt pets from the given list.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 OM JADIA. All rights reserved.
+    </footer>
+</body>
+</html>
